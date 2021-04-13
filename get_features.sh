@@ -6,6 +6,6 @@ do
     wc $FOLDER/associations.txt
 
     cd hf-net
-    python3 getFeature.py $FOLDER/rgb/ $FOLDER/features_hfnet_df
+    python3 getFeature.py $FOLDER/rgb/ $FOLDER/features_hfnet
     cd -
 done
